@@ -6,11 +6,26 @@ body{
     align-items: center;
     height: 100vh;
 }
+/* Navbar Styling Start Here */
+.wrapper{
+    display: flex;
+justify-content: space-between;
+gap: 1.5rem;
+}
+.icon img{
+    width: 10rem;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    gap: 1.5rem;
+}
+/* First Section Styling Here */
 .first {
     display: flex;
     border-radius: 10px;
     overflow: hidden;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .text {
     padding: 40px;
@@ -26,7 +41,7 @@ body{
 
 }
 .button a {
-    margin-top: 20rem;
+    margin-top: 30px;
     text-decoration: none;
     background-color: teal;
     color: white;
@@ -46,5 +61,5 @@ body{
 .grid img{
     width: 30rem;
     height: 100%;
-    border-radius: 3rem;
+    border-radius: 10px;
 }
