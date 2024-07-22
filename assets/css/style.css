@@ -3,8 +3,8 @@
 }
 body{
     background-color:aliceblue;
-padding-left: 50px;
-padding-right: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -86,15 +86,15 @@ padding-right: 50px;
     max-width: 50%;
 }
 .grid img{
-    width: 40rem;
-    height: 70%;
-    border-radius: 10px;
+    width: 35rem;
+    height: 100%;
+    border-radius: 20px;
 }
 .container{
     border-radius: 10px;
     background-color: teal;
     height: 40%;
-    width: 100rem;
+    width: 90rem;
     justify-self: center;
 
 }
@@ -106,7 +106,7 @@ color: white;
 }
 .alphabets {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: white;
     height: 20%;
     margin-bottom: 10rem;
@@ -125,4 +125,29 @@ color: white;
 }
 .container h3{
     font-size: 30px;
+}
+.meta {
+    display: flex;
+    gap: 20rem;
+}
+.met {
+    display: flex;
+    gap: 6rem;   
+}
+.fifth {
+    margin-left: 20rem;
+    margin-top: 7rem;
+}
+.fifth .meta a{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: teal;
+    color: white;
+    border-radius: 0.5rem;
+    margin-left: 12rem;
+    font-weight: bolder;
+    margin-top: 5rem;
 }
